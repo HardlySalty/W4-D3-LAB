@@ -12,6 +12,8 @@ class AppState extends EventEmitter {
   /** @type {import('./Models/TempPokemon').Pokemon[]} */
   pokemons = []
 
+  myPokemons = []
+
   pokemon = null
 }
 

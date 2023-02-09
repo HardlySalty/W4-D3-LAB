@@ -1,1 +1,37 @@
 /* BASIC STYLES HERE */
+#game-container{
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#game-img{
+  filter: brightness(0%) blur(5px);
+}
+
+#guess, #guess-title{
+  width: 100%;
+  font-size: 3em;
+  background-color: #2fba3622;
+  box-shadow: 5px 5px 5px #0aef6d67;
+  border: 0;
+  color: rgb(197, 197, 197);
+}
+
+#main-col{
+  background-color: #0000ff10;
+}
+
+#poke-btn:hover{
+  filter: brightness(80%);
+}
+
+#poke-card{
+  background-color: #09072f;
+}
+
+#type-font{
+  font-size: .6em;
+}
